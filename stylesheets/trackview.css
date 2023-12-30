@@ -1,0 +1,13 @@
+.track{
+    background-color:var(--background-a);
+    display:flex;
+    flex-direction:row;
+    padding-left:3px;
+}
+.track .trackmeta{
+    background-color:var(--background-b);
+    width:100px;
+    & input{
+        width:calc(100% - 5px);
+    }
+}

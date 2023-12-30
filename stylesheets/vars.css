@@ -1,0 +1,12 @@
+:root{
+    --font-color:black;
+    --background-a:#bbb;
+    --background-b:#ccc;
+    --background-d:#ddd;
+}
+:root[data-theme="dark"]{
+    --font-color:white;
+    --background-a:#444;
+    --background-b:#555;
+    --background-d:#666;
+}

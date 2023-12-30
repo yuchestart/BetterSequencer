@@ -1,0 +1,13 @@
+.timebar{
+    background-color:var(--background-a);
+    height:1em;
+    & .playhead{
+        position:absolute;
+        width:min-content;
+        left:103px;
+    }
+}
+.controlbar{
+    display:grid;
+    
+}

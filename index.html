@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href="./stylesheets/vars.css">
+    <link rel='stylesheet' href="./stylesheets/styles.css">
+    <link rel='stylesheet' href="./stylesheets/trackview.css">
+    <title>Better sequencer</title>
+</head>
+<body>
+    <div class="navbar">
+        <button>File</button><button>Edit</button><button>Track</button><button>Help</button>
+    </div>
+    <div class="controlbar">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </div>
+    <div class="timebar">
+        <canvas class="timebar"></canvas>
+        <span>Section:</span><select>
+            <option>A</option>
+        </select>
+    </div>
+    <div class="trackview">
+        <div class="track">
+            <div class="trackmeta">
+                <span class="name">Electric Piano</span><br>
+                <input type="range" min="0" max="100" class="volume" title="Volume"><br>
+                <input type="range" min="0" max="100" class="pan" title="Pan">
+            </div>
+            <div class="trackdata">
+                <svg class="trackicon"></svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
